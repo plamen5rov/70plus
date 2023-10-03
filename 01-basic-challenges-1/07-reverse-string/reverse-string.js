@@ -1,5 +1,5 @@
 function reverseString(string) {
-    let result = string.split('').reverse();
+    let result = string.split('').reverse().join('');
     return result;
 }
 
