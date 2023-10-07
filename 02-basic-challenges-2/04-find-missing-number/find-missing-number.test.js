@@ -1,4 +1,4 @@
-const findMissingNumber = require('./find-missing-number');
+const findMissingNumber = require('./find-missing-number')
 
 test('Finding the missing number', () => {
   expect(findMissingNumber([1, 2, 3, 5])).toBe(4);
